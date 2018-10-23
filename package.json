@@ -1,0 +1,12 @@
+{
+  "name": "generate-spec-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "gitbook-cli": "^2.3.2"
+  }
+}

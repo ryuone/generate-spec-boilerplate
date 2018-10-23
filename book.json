@@ -1,0 +1,29 @@
+{
+  "language": "ja",
+  "gitbook": ">= 3.0.0",
+  "title": "ドキュメントタイトル",
+  "root": "./src",
+  "structure": {
+    "readme": "index.md",
+    "summary": "README.md"
+  },
+  "plugins": [
+    "-search",
+    "-lunr",
+    "page-toc-button",
+    "include-codeblock",
+    "anchors",
+    "canonical-link",
+    "-sharing",
+    "hide-published-with"
+  ],
+  "pluginsConfig": {
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    },
+    "canonical-link": {
+      "baseURL": "http://localhost"
+    }
+  }
+}
