@@ -1,0 +1,20 @@
+{
+  "rules": {
+    // 箇条書きには。を付けない
+    "period-in-list-item": {
+      "periodMark": ""
+    },
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 300
+      }
+    },
+    "no-start-duplicated-conjunction": true,
+    "spellcheck-tech-word": true,
+    "prh": {
+      "rulePaths": [
+        "prh.yml"
+      ]
+    }
+  }
+}

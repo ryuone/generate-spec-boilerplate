@@ -13,7 +13,6 @@
     "page-toc-button",
     "include-codeblock",
     "anchors",
-    "canonical-link",
     "-sharing",
     "hide-published-with"
   ],
@@ -21,9 +20,6 @@
     "page-toc-button": {
       "maxTocDepth": 2,
       "minTocSize": 2
-    },
-    "canonical-link": {
-      "baseURL": "http://localhost"
     }
   }
 }
