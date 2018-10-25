@@ -5,9 +5,8 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "gitbook install",
-    "test": "gitbook build",
-    "epub": "gitbook epub ./ ./spec.epub",
-    "mobi": "gitbook mobi ./ ./spec.mobi",
+    "start": "gitbook serve",
+    "build": "gitbook build",
     "pdf": "gitbook pdf ./ ./spec.pdf",
     "pretest": "textlint '!(node_modules)/*.md'"
   },
