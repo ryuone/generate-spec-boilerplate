@@ -14,12 +14,18 @@
     "include-codeblock",
     "anchors",
     "-sharing",
-    "hide-published-with"
+    "hide-published-with",
+    "dot",
+    "uml"
   ],
   "pluginsConfig": {
     "page-toc-button": {
       "maxTocDepth": 2,
       "minTocSize": 2
+    },
+    "uml": {
+      "format": "png",
+      "nailgun": false
     }
   }
 }

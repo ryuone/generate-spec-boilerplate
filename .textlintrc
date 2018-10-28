@@ -16,5 +16,8 @@
         "prh.yml"
       ]
     }
+  },
+  "filters": {
+    "comments": true
   }
 }
