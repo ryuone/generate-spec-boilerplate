@@ -14,7 +14,6 @@
     "include-codeblock",
     "anchors",
     "-sharing",
-    "hide-published-with",
     "dot",
     "uml"
   ],

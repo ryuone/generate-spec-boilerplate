@@ -8,10 +8,16 @@
     "start": "gitbook serve",
     "build": "gitbook build",
     "pdf": "gitbook pdf ./ ./spec.pdf",
-    "pretest": "textlint ./src/**/*.md"
+    "pretest": "summary-to-path ./src/README.md | xargs textlint -f pretty-error"
   },
   "devDependencies": {
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-dot": "^1.0.1",
+    "gitbook-plugin-include-codeblock": "^3.2.2",
+    "gitbook-plugin-page-toc-button": "^0.1.1",
+    "gitbook-plugin-uml": "^1.0.1",
+    "gitbook-summary-to-path": "^1.0.2",
     "textlint": "^11.0.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-no-start-duplicated-conjunction": "^2.0.2",

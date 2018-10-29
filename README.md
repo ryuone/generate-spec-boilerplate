@@ -9,14 +9,10 @@
 ## Installation
 
     yarn install
-    yarn install:gitbook
 
     または
 
     npm install
-    npm run install:gitbook
-
-`uml`のインストールで失敗した場合は、再度`install:gitbook`を再実行してください。
 
 ## Usage
 **Build**
